@@ -1,0 +1,104 @@
+@import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+/* line 9, ../sass/app.scss */
+.rwd-table {
+  margin: 1em 0;
+  min-width: 100%;
+}
+/* line 13, ../sass/app.scss */
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+/* line 18, ../sass/app.scss */
+.rwd-table th {
+  display: none;
+}
+/* line 22, ../sass/app.scss */
+.rwd-table td {
+  display: block;
+}
+/* line 25, ../sass/app.scss */
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+/* line 28, ../sass/app.scss */
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+/* line 32, ../sass/app.scss */
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  /* line 32, ../sass/app.scss */
+  .rwd-table td:before {
+    display: none;
+  }
+}
+/* line 47, ../sass/app.scss */
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  /* line 47, ../sass/app.scss */
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  /* line 54, ../sass/app.scss */
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  /* line 58, ../sass/app.scss */
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+/* line 73, ../sass/app.scss */
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+  background-image: url('https://habrastorage.org/files/9ec/4ea/93a/9ec4ea93ab9a440e8a293a87df6dc303.gif');
+}
+
+/* line 82, ../sass/app.scss */
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+/* line 88, ../sass/app.scss */
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  margin-top: 10%;
+}
+/* line 93, ../sass/app.scss */
+.rwd-table tr {
+  border-color: #46637f;
+}
+/* line 96, ../sass/app.scss */
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  /* line 96, ../sass/app.scss */
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+/* line 102, ../sass/app.scss */
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}

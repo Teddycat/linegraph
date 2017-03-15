@@ -1,0 +1,57 @@
+.panel-default {
+    min-width: 110% !important;
+}
+.searcher {
+    position: relative;
+    min-width: 85%;
+    margin: 0 auto;
+}
+
+.search-row {
+    min-width: 90%;
+    max-width: 90%;
+    margin: 0 5%;
+}
+.search-by {
+    min-width: 150px;
+}
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#canvas {
+    min-width: 90%;
+    min-height: 200px;
+    /*background-color: #98EFFC;*/
+    margin: 5% 0;
+}
+
+#mail {
+    float: left;
+    margin-bottom: 3%;
+}
+
+#orders-table {
+    margin: 10% 0;
+}
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.edit-input {
+    position: inherit;
+   // max-width: 20% !important;
+    color: black;
+}
+.title {
+    font-size: 96px;
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+
