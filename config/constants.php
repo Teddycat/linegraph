@@ -7,5 +7,5 @@
  */
 
 return [
-    'ADMIN_MAIL' => 'alexander@webscribble.com'
+    'ADMIN_MAIL' => 'admin@admin.com'
 ];
